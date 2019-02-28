@@ -21,7 +21,6 @@ Creation and Analysis of Movie Recommendation Engine Using Continuous Mathematic
 ## [References](https://github.com/polymathnexus5/rec-engine-CS205L-W19/tree/master/references)
 | Source | Description |
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-
 | Introduction to Recommender Systems | Description |
 
 ## Contact Info

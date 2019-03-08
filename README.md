@@ -23,7 +23,9 @@ Creation and Analysis of Movie Recommendation Engine Using Continuous Mathematic
 |-------------------------------------|----------------------------------------------------------------|
 | Introduction to Recommender Systems | 2016 textbook on recommender systems across industries by Charu Aggarwal |
 | Recommender System Techniques Applied to Netflix Movie Data | A review of several techniques |
-| The BellKor Solution to the Netflix Grand Prize | Description of the more advanced portions of the winning recommendation system to the Netflix challenge |
+|The Pragmatic Theory solution to the Netflix Grand Prize| Part 1: Description of the winning recommendation system to the Netflix Prize |
+| The BellKor Solution to the Netflix Grand Prize | Part 2: Description of the winning recommendation system to the Netflix Prize |
+| The BigChaos Solution to the Netflix Grand Prize | Part 3: Description of the winning recommendation system to the Netflix Prize |
 
 ## Contact Info
 Please reach out with any comments, questions, suggestions, ideas, or anything else.

@@ -34,9 +34,7 @@ This project will use a collaborative filtering approach to predict a given user
 
 ## Data
 
-Annies - Do we want to use the MovieLens data or the Netflix Prize data? I found the Netflix Prize data easier to work with, but the two are essentially the same ... ?
-
-The data used in this project is from the [Netflix Prize](https://www.netflixprize.com/), a contest that Netflix held in 2009 that awarded $1M to the best movie recommendation algorithm based on Netflix user movie rating data. The data can be downloaded from Kaggle [here](https://www.kaggle.com/netflix-inc/netflix-prize-data). The page also offers a detailed description and brief exploration of the data.
+The data used in this project is from MovieLens. The data can be downloaded [here](http://files.grouplens.org/datasets/movielens/ml-20m.zip). This [page](http://files.grouplens.org/datasets/movielens/ml-20m-README.html) offers a detailed description of the data.
 
 
 ## [References](https://github.com/polymathnexus5/rec-engine-CS205L-W19/tree/master/references)
@@ -51,12 +49,10 @@ The data used in this project is from the [Netflix Prize](https://www.netflixpri
 | Dimensionality Reduction SVD and Its Applications | Educational presentation on SVD and some of its applications |
 
 Other references:
+* [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
 * [Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system)
 * [Information Filtering Systems](https://en.wikipedia.org/wiki/Information_filtering_system)
-* [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
-* [Netflix Prize Challenge](https://en.wikipedia.org/wiki/Netflix_Prize)
 * [Movie Recommender System on Kaggle](https://www.kaggle.com/rounakbanik/movie-recommender-systems)
-* [ML-20m Data Set Description](http://files.grouplens.org/datasets/movielens/ml-20m-README.html)
 
 ## Contact Info
 Please reach out with any comments, questions, suggestions, ideas, or anything else.

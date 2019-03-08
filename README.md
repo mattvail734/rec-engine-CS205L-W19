@@ -49,13 +49,12 @@ The data used in this project is from the [Netflix Prize](https://www.netflixpri
 | Dimensionality Reduction SVD and Its Applications | Educational presentation on SVD and some of its applications |
 
 Other references:
-[Applications of SVD]
-[Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system)
-[Information Filtering Systems](https://en.wikipedia.org/wiki/Information_filtering_system)
-[Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
-[Netflix Prize Challenge](https://en.wikipedia.org/wiki/Netflix_Prize)
-[Movie Recommender System on Kaggle](https://www.kaggle.com/rounakbanik/movie-recommender-systems)
-[ML-20m Data Set Description](http://files.grouplens.org/datasets/movielens/ml-20m-README.html)
+* [Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system)
+* [Information Filtering Systems](https://en.wikipedia.org/wiki/Information_filtering_system)
+* [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
+* [Netflix Prize Challenge](https://en.wikipedia.org/wiki/Netflix_Prize)
+* [Movie Recommender System on Kaggle](https://www.kaggle.com/rounakbanik/movie-recommender-systems)
+* [ML-20m Data Set Description](http://files.grouplens.org/datasets/movielens/ml-20m-README.html)
 
 ## Contact Info
 Please reach out with any comments, questions, suggestions, ideas, or anything else.

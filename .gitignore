@@ -1,6 +1,9 @@
 # Netflix prize data
 /netflix-prize-data/
 
+# Movielens data
+/ml-20m/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

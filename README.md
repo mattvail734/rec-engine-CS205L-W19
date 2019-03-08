@@ -1,7 +1,8 @@
 # Movie Recommendation Engine
 
 Stanford CS205L WIN 2018-209 
-Major course project
+Major course project:
+
 Creation and Analysis of Movie Recommendation Engine Using Continuous Mathematical Methods
 
 ## Index

@@ -31,6 +31,9 @@ The aim of this project is to predict a given user’s movie taste preferences b
 
 
 ## Data
+
+Annies - Do we want to use the MovieLens data or the Netflix Prize data? I found the Netflix Prize data easier to work with, but the two are essentially the same ... ?
+
 The data used in this project is from the [Netflix Prize](https://www.netflixprize.com/), a contest that Netflix held in 2009 that awarded $1M to the best movie recommendation algorithm based on Netflix user movie rating data. The data can be downloaded from Kaggle [here](https://www.kaggle.com/netflix-inc/netflix-prize-data). The page also offers a detailed description and brief exploration of the data.
 
 
@@ -42,6 +45,17 @@ The data used in this project is from the [Netflix Prize](https://www.netflixpri
 |The Pragmatic Theory solution to the Netflix Grand Prize| Part 1: Description of the winning recommendation system to the Netflix Prize |
 | The BellKor Solution to the Netflix Grand Prize | Part 2: Description of the winning recommendation system to the Netflix Prize |
 | The BigChaos Solution to the Netflix Grand Prize | Part 3: Description of the winning recommendation system to the Netflix Prize |
+| Movie Recommender System | Comparison of movie recommender systems trained on the MovieLens dataset |
+| Dimensionality Reduction SVD and Its Applications | Educational presentation on SVD and some of its applications |
+
+Other references:
+[Applications of SVD]
+[Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system)
+[Information Filtering Systems](https://en.wikipedia.org/wiki/Information_filtering_system)
+[Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
+[Netflix Prize Challenge](https://en.wikipedia.org/wiki/Netflix_Prize)
+[Movie Recommender System on Kaggle](https://www.kaggle.com/rounakbanik/movie-recommender-systems)
+[ML-20m Data Set Description](http://files.grouplens.org/datasets/movielens/ml-20m-README.html)
 
 ## Contact Info
 Please reach out with any comments, questions, suggestions, ideas, or anything else.

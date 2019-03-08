@@ -15,8 +15,8 @@ import seaborn as sns
 
 sns.set_style('darkgrid')
 
-genome_scores = pd.read_csv('../ml-20m/genome_scores.csv')
-genome_tags = pd.read_csv('../ml-20m/genome_tags.csv')
+genome_scores = pd.read_csv('../ml-20m/genome-scores.csv')
+genome_tags = pd.read_csv('../ml-20m/genome-tags.csv')
 links = pd.read_csv('../ml-20m/links.csv')
 movies = pd.read_csv('../ml-20m/movies.csv')
 ratings = pd.read_csv('../ml-20m/ratings.csv')

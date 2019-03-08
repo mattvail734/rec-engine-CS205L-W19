@@ -1,6 +1,6 @@
 # Movie Recommendation Engine
 
-Stanford CS205L WIN 2018-209 
+Stanford CS205L WIN 2018-2019 
 
 Major course project:
 

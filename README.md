@@ -20,7 +20,7 @@ Creation and Analysis of Movie Recommendation Engine Using Continuous Mathematic
 
 ## [References](https://github.com/polymathnexus5/rec-engine-CS205L-W19/tree/master/references)
 | Source | Description |
-|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------|----------------------------------------------------------------|
 | Introduction to Recommender Systems | 2016 textbook on recommender systems across industries by Charu Aggarwal |
 | Recommender System Techniques Applied to Netflix Movie Data | A review of several techniques |
 | The BellKor Solution to the Netflix Grand Prize | Description of the more advanced portions of the winning recommendation system to the Netflix challenge |

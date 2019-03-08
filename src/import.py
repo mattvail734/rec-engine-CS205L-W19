@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pandas as pd
 import math
@@ -8,11 +9,22 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-# download the netflix prize datatset from
-# https://www.kaggle.com/netflix-inc/netflix-prize-data/downloads/netflix-prize-data.zip/1
-# unzip and place the entire 'netflix-prize-data' folder in repo (not tracked by git) before running
+# download the ml-20m dataset from
+# http://files.grouplens.org/datasets/movielens/ml-20m.zip
+# unzip and place the entire 'ml-20m' folder in repo (not tracked by git) before running
 
 sns.set_style('darkgrid')
 
-df1 = pd.read_csv('../netflix-prize-data/combined_data_1.txt')
-print(df1.head())
+genome_scores = pd.read_csv('../ml-20m/genome_scores.csv')
+genome_tags = pd.read_csv('../ml-20m/genome_tags.csv')
+links = pd.read_csv('../ml-20m/links.csv')
+movies = pd.read_csv('../ml-20m/movies.csv')
+ratings = pd.read_csv('../ml-20m/ratings.csv')
+tags = pd.read_csv('../ml-20m/tags.csv')
+
+print(genome_scores.head())
+print(genome_tags.head())
+print(links.head())
+print(movies.head())
+print(ratings.head())
+print(tags.head())

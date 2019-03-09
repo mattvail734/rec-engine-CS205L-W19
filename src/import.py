@@ -8,7 +8,6 @@ from surprise import Reader, Dataset, SVD, evaluate
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 # download the ml-20m dataset from
 # http://files.grouplens.org/datasets/movielens/ml-20m.zip
 # unzip and place the entire 'ml-20m' folder in repo (not tracked by git) before running
@@ -28,3 +27,17 @@ print(links.head())
 print(movies.head())
 print(ratings.head())
 print(tags.head())
+
+print(genome_scores.isnull().any())
+print(genome_tags.isnull().any())
+print(links.isnull().any())
+print(movies.isnull().any())
+print(ratings.isnull().any())
+print(tags.isnull().any())
+
+print(genome_scores.columns)
+print(genome_tags.columns)
+print(links.columns)
+print(movies.columns)
+print(ratings.columns)
+print(tags.columns)

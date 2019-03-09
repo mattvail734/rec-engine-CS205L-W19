@@ -16,6 +16,7 @@ Creation and Analysis of Movie Recommendation Engine Using Continuous Mathematic
 * [License](#License)
 
 ## Background
+
 Recommendation systems are all around us in the modern world. A recommendation system is any system that attempts to predict a user's preferences and suggest a product for them to consume. Recommender systems are increasingly important for predicting users’ preferences for a variety of content including movies, books, games, products, and more. These recommender systems are a specialized subset of information filtering systems, which predict a user’s preference for a given item. The most common examples are Spotify's "Made for you" playlist, Amazon's "Recommendations for you" and "Customers who shopped for ... also shopped for ..." product suggestions, and Netflix' recommendations and "Because you watched ..." suggestions. 
 
 While these systems have become ubiquitous with the rapid collection of massive data, they are still far from optimized. There are three main approaches to current recommender systems:
@@ -28,6 +29,9 @@ This project will use a collaborative filtering approach to predict a given user
 
 ## Challenges
 
+The primary challenge is that the user x ratings matrix (A) is very sparse. Only ~0.5% of all entries are non-zero, but the total size of the matrix is > 60GB. In order to overcome this challenge, we will try to do all the required computation using matrix  methods that avoid using the entire user x ratings matrix and allow us to compute one column or row vector at a time.
+
+Note: iterative methods (i.e. gradient descent, conjugate GD, etc.) for preconditioning (HW4, Heath 11.5.5, 
 
 ## Model
 

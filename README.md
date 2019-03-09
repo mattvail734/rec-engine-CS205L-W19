@@ -56,6 +56,7 @@ Other references:
 * [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
 * [Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system)
 * [Information Filtering Systems](https://en.wikipedia.org/wiki/Information_filtering_system)
+* [Pearson Correlation Coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
 * [Movie Recommender System on Kaggle](https://www.kaggle.com/rounakbanik/movie-recommender-systems)
 
 ## Contact Info

@@ -51,6 +51,7 @@ The data used in this project is from MovieLens. The data can be downloaded [her
 | The BigChaos Solution to the Netflix Grand Prize | Part 3: Description of the winning recommendation system to the Netflix Prize |
 | Movie Recommender System | Comparison of movie recommender systems trained on the MovieLens dataset |
 | Dimensionality Reduction SVD and Its Applications | Educational presentation on SVD and some of its applications |
+| Deep Item Based Collaborative Filtering for Sparse Implicit Feedback | Recent arXiv paper on deep learning for recommmender systems focused on implicit feedback but very relevant for details on sparse matrices |
 
 Other references:
 * [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)

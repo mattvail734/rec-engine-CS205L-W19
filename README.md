@@ -29,7 +29,7 @@ This project will use a collaborative filtering approach to predict a given user
 
 ## Challenges
 
-The primary challenge is that the user x ratings matrix (A) is very sparse. Only ~0.5% of all entries are non-zero, but the total size of the matrix is > 60GB. In order to overcome this challenge, we will try to do all the required computation using matrix  methods that avoid using the entire user x ratings matrix and allow us to compute one column or row vector at a time.
+The primary challenge is that the user x ratings matrix (A) is very sparse. Only ~0.5% of all entries are non-zero, but the total size of the matrix is > 60GB. In order to overcome this challenge, we will try to do all the required computation using matrix  methods that avoid using the complete ratings matrix and allow us to compute one column or row vector at a time.
 
 Note: iterative methods (i.e. gradient descent, conjugate GD, etc.) for preconditioning (HW4, Heath 11.5.5, 
 

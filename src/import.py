@@ -21,23 +21,6 @@ movies = pd.read_csv('../ml-20m/movies.csv')
 ratings = pd.read_csv('../ml-20m/ratings.csv')
 tags = pd.read_csv('../ml-20m/tags.csv')
 
-print(genome_scores.head())
-print(genome_tags.head())
-print(links.head())
-print(movies.head())
-print(ratings.head())
-print(tags.head())
-
-print(genome_scores.isnull().any())
-print(genome_tags.isnull().any())
-print(links.isnull().any())
-print(movies.isnull().any())
-print(ratings.isnull().any())
-print(tags.isnull().any())
-
-print(genome_scores.columns)
-print(genome_tags.columns)
-print(links.columns)
-print(movies.columns)
-print(ratings.columns)
-print(tags.columns)
+# choose a small portion of the Dataset
+# implement collaborative filtering on it using surprise
+# read surprise documentation to understand math and options

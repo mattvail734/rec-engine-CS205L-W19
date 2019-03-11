@@ -46,12 +46,12 @@ The data used in this project is from MovieLens. The data can be downloaded [her
 
 The entire project was completed in Python 3.7.2_1 using standard libraries including:
 
-[Os](https://docs.python.org/3/library/os.html)
-[SciKitLearn](https://scikit-learn.org/stable/)
-[Numpy](http://www.numpy.org/)
-[Pandas](http://pandas.pydata.org/)
-[Matplotlib](https://matplotlib.org/)
-[Seaborn](https://seaborn.pydata.org/)
+* [Os](https://docs.python.org/3/library/os.html)
+* [SciKitLearn](https://scikit-learn.org/stable/)
+* [Numpy](http://www.numpy.org/)
+* [Pandas](http://pandas.pydata.org/)
+* [Matplotlib](https://matplotlib.org/)
+* [Seaborn](https://seaborn.pydata.org/)
 
 We also used the [Surprise](https://surprise.readthedocs.io/en/stable/index.html) library for benchmarks.
 

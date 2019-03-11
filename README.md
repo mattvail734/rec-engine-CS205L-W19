@@ -62,11 +62,13 @@ The data used in this project is from MovieLens. The data can be downloaded [her
 | Learning from Incomplete Ratings Using Non-negative Matrix Factorization | Non-negative matrix factorization |
 
 Other references:
-* [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
-* [Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system)
-* [Information Filtering Systems](https://en.wikipedia.org/wiki/Information_filtering_system)
-* [Pearson Correlation Coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
+* [Collaborative Filtering Wiki](https://en.wikipedia.org/wiki/Collaborative_filtering)
+* [Recommender Systems Wiki](https://en.wikipedia.org/wiki/Recommender_system)
+* [Information Filtering Systems Wiki](https://en.wikipedia.org/wiki/Information_filtering_system)
+* [Pearson Correlation Coefficient Wiki](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
 * [Movie Recommender System on Kaggle](https://www.kaggle.com/rounakbanik/movie-recommender-systems)
+* [Gradient Descent Based Matrix Factorization Approach](https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation-engine-python/)
+* [Interesting Mathematical Details from a Netflix Prize Finalize](https://sifter.org/~simon/journal/20061211.html)
 
 ## Contact Info
 Please reach out with any comments, questions, suggestions, ideas, or anything else.

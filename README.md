@@ -52,6 +52,14 @@ The data used in this project is from MovieLens. The data can be downloaded [her
 | Movie Recommender System | Comparison of movie recommender systems trained on the MovieLens dataset |
 | Dimensionality Reduction SVD and Its Applications | Educational presentation on SVD and some of its applications |
 | Deep Item Based Collaborative Filtering for Sparse Implicit Feedback | Recent arXiv paper on deep learning for recommmender systems focused on implicit feedback but very relevant for details on sparse matrices |
+| Factor in the Neighbors: Scalable and Accurate Collaborative Filtering | Yehuda Koren research paper on collaborative filtering with a good explanation of the underlying mathematics |
+| A Scalable Collaborative Filtering Framework based on Co-clustering | UT paper on clustering and collaborative filtering |
+| Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model | Yehuda Koren paper on neighborhood model based collaborative filtering |
+| Matrix Factorization Techniques for Recommender Systems | Yehuda Koren paper on matrix factorization methods for collaborative filtering |
+| Algorithms for Non-negative Matrix Factorization | Non-negative matrix factorization |
+| Slope One Predictors for Online Rating-Based Collaborative Filtering | Online models |
+| Probabilistic Matrix Factorization | Description |
+| Learning from Incomplete Ratings Using Non-negative Matrix Factorization | Non-negative matrix factorization |
 
 Other references:
 * [Collaborative Filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)

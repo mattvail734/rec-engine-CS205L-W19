@@ -58,7 +58,7 @@ The data used in this project is from MovieLens. The data can be downloaded [her
 | Matrix Factorization Techniques for Recommender Systems | Yehuda Koren paper on matrix factorization methods for collaborative filtering |
 | Algorithms for Non-negative Matrix Factorization | Non-negative matrix factorization |
 | Slope One Predictors for Online Rating-Based Collaborative Filtering | Online models |
-| Probabilistic Matrix Factorization | Description |
+| Probabilistic Matrix Factorization | Probabilistic approach to matrix factorization |
 | Learning from Incomplete Ratings Using Non-negative Matrix Factorization | Non-negative matrix factorization |
 
 Other references:

@@ -12,6 +12,7 @@ Creation and Analysis of Movie Recommendation Engine Using Continuous Mathematic
 * [Model](#model)
 * [Data](#data)
 * [References](#references)
+* [Software](#software)
 * [Contact Info](#contact-info)
 * [License](#License)
 
@@ -40,6 +41,19 @@ Note: iterative methods (i.e. gradient descent, conjugate GD, etc.) for precondi
 
 The data used in this project is from MovieLens. The data can be downloaded [here](http://files.grouplens.org/datasets/movielens/ml-20m.zip). This [page](http://files.grouplens.org/datasets/movielens/ml-20m-README.html) offers a detailed description of the data.
 
+
+## Software
+
+The entire project was completed in Python 3.7.2_1 using standard libraries including:
+
+[Os](https://docs.python.org/3/library/os.html)
+[SciKitLearn](https://scikit-learn.org/stable/)
+[Numpy](http://www.numpy.org/)
+[Pandas](http://pandas.pydata.org/)
+[Matplotlib](https://matplotlib.org/)
+[Seaborn](https://seaborn.pydata.org/)
+
+We also used the [Surprise](https://surprise.readthedocs.io/en/stable/index.html) library for benchmarks.
 
 ## [References](https://github.com/polymathnexus5/rec-engine-CS205L-W19/tree/master/references)
 | Source | Description |

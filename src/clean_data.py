@@ -21,6 +21,7 @@ def filter_by_rating_count(ratings, percentile=0.999):
     return ratings_short
 
 
+# THIS DOES NOT WORK YET; NEED TO FIGURE THIS OUT
 # creats the complete ratings matrix from a dataframe of ratings with
 # userId, movieId, and rating
 def complete_ratings_matrix(ratings):

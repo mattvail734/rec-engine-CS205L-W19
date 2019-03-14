@@ -1,6 +1,8 @@
 import numpy as np
 
 # THIS DOESN'T WORK YET. NEED TO DEBUG.
+# basic structure from here:
+# https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation-engine-python/
 
 
 class custom_matrix_factorization():

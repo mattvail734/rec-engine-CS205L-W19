@@ -1,0 +1,6 @@
+1:  Make custom_matrix_factorization work (outside Surprise)
+2:  Maybe - you might not need to do this if you make custom_matrix_factorization work
+    You can probably just use that to do all your experiments and compare all of it to the output from Surprise
+    Make custom_rec_algo work (Surprise extension)
+3:  Reread course notes and understand matrix factorization --> optimization
+4:  Figure out how to measure time required and memory required

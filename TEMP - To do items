@@ -1,4 +1,5 @@
 1:  Read Suprise model documentation, especially formulas to understand how everything is calculated
+1b: Read https://github.com/polymathnexus5/rec-engine-CS205L-W19/blob/master/references/3208-probabilistic-matrix-factorization.pdf
 2:  Reread course notes and understand matrix factorization --> optimization
 3:  Figure out which method(s) to implement
 4:  Decide what "performance" will mean (metrics)

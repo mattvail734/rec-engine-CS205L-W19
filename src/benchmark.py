@@ -14,8 +14,8 @@ import save_to_output
 
 
 def benchmark():
-    ratings = load_data.load_ratings()
-    ratings = clean_data.filter_by_rating_count(ratings)
+    ratings = load_data.load_small_ratings()
+    # ratings = clean_data.filter_by_rating_count(ratings)
     reader = Reader(rating_scale=(1, 5))
     data = Dataset.load_from_df(ratings[['userId', 'movieId', 'rating']], reader)
 
@@ -33,10 +33,11 @@ def benchmark():
     output = pd.DataFrame(benchmark).set_index('Algorithm').sort_values('test_rmse')
     save_to_output.store_dataframe(output, 'Algorithm_Benchmark.csv')
 
+
 # THIS DOESN'T WORK YET. Complete matrix function doesn't work. Need to fix that first.
 def custom():
-    ratings = load_data.load_ratings()
-    ratings = clean_data.filter_by_rating_count(ratings)
+    ratings = load_data.load_small_ratings()
+    # ratings = clean_data.filter_by_rating_count(ratings)
     ratings = clean_data.complete_ratings_matrix(ratings)
 
     K = 20
@@ -45,16 +46,15 @@ def custom():
     iterations = 100
 
     custom_mf = custom_matrix_factorization.custom_matrix_factorization(ratings, K=K, alpha=alpha, beta=beta, iterations=iterations)
-    training_process = custom_mf.train()
-    text_file = open('custom_perormance.txt', 'w')
-    text_file.write('K: {}'.format(K))
-    text_file.write('alpha: {}'.format(alpha))
-    text_file.write('beta: {}'.format(beta))
-    text_file.write('iterations: {}'.format(iterations))
-    text_file.write('RMSE: {}'.format(custom_mf.rmse()))
-    text_file.write(training_process)
-    text_file.write('P x Q:')
-    text_file.write(custom_mf.full_matrix())
+    custom_mf.train()
+    text_file = open('custom_performance.txt', 'w')
+    text_file.write('K: {}'.format(K)+'\n')
+    text_file.write('alpha: {}'.format(alpha)+'\n')
+    text_file.write('beta: {}'.format(beta)+'\n')
+    text_file.write('iterations: {}'.format(iterations)+'\n')
+    text_file.write('RMSE: {}'.format(custom_mf.rmse())+'\n')
+    text_file.close()
+    save_to_output.move_to_output('custom_performance.txt')
 
 
 if __name__ == '__main__':

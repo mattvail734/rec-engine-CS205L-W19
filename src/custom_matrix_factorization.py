@@ -1,9 +1,5 @@
 import numpy as np
 
-# THIS DOESN'T WORK YET. NEED TO DEBUG.
-# basic structure from here:
-# https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation-engine-python/
-
 
 class custom_matrix_factorization():
 
@@ -76,5 +72,8 @@ class custom_matrix_factorization():
         return prediction
 
     def full_matrix(self):
-        full_matrix = self.b + self.b_u[:, np.newaxis] + self.b_i[np.newaxis:, ] + self.P.dot(self.Q.T)
+        full_matrix = self.b + self.b_u[:, np.newaxis] + self.b_m[np.newaxis:, ] + self.P.dot(self.Q.T)
         return full_matrix
+
+# basic structure from here:
+# https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-recommendation-engine-python/

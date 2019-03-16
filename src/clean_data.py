@@ -21,9 +21,11 @@ def filter_by_rating_count(ratings, percentile=0.999):
     return ratings_short
 
 
-# THIS DOES NOT WORK YET; NEED TO FIGURE THIS OUT
-# creats the complete ratings matrix from a dataframe of ratings with
-# userId, movieId, and rating
+# remove all nan values
+# creates the complete ratings matrix from a dataframe of ratings with
+# user x movie
 def complete_ratings_matrix(ratings):
-    ratings_matrix = pd.pivot_table(ratings, values='rating', index='userId', columns='movieId')
-    return ratings_matrix
+    complete_ratings = pd.pivot_table(ratings, values='rating', index='userId', columns='movieId')
+    complete_ratings = complete_ratings.fillna(0)
+    complete_ratings_matrix = complete_ratings.to_numpy()
+    return complete_ratings_matrix

@@ -5,7 +5,6 @@ from surprise import KNNBaseline, KNNBasic, KNNWithMeans, KNNWithZScore
 from surprise import BaselineOnly, CoClustering
 from surprise.model_selection import cross_validate
 import load_data
-import clean_data
 import custom_matrix_factorization
 import save_to_output
 
@@ -38,7 +37,7 @@ def benchmark():
 def custom():
     ratings = load_data.load_small_ratings()
     # ratings = clean_data.filter_by_rating_count(ratings)
-    ratings = clean_data.complete_ratings_matrix(ratings)
+    ratings = load_data.complete_ratings_matrix(ratings)
 
     K = 20
     alpha = 0.001

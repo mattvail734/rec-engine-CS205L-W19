@@ -56,26 +56,7 @@ The entire project was completed in Python 3.7.2_1 using standard libraries incl
 We also used the [Surprise](https://surprise.readthedocs.io/en/stable/index.html) library for benchmarks.
 
 ## [References](https://github.com/polymathnexus5/rec-engine-CS205L-W19/tree/master/references)
-| Source | Description |
-|-------------------------------------|----------------------------------------------------------------|
-| Introduction to Recommender Systems | 2016 textbook on recommender systems across industries by Charu Aggarwal |
-| Recommender System Techniques Applied to Netflix Movie Data | A review of several techniques |
-|The Pragmatic Theory solution to the Netflix Grand Prize| Part 1: Description of the winning recommendation system to the Netflix Prize |
-| The BellKor Solution to the Netflix Grand Prize | Part 2: Description of the winning recommendation system to the Netflix Prize |
-| The BigChaos Solution to the Netflix Grand Prize | Part 3: Description of the winning recommendation system to the Netflix Prize |
-| Movie Recommender System | Comparison of movie recommender systems trained on the MovieLens dataset |
-| Dimensionality Reduction SVD and Its Applications | Educational presentation on SVD and some of its applications |
-| Deep Item Based Collaborative Filtering for Sparse Implicit Feedback | Recent arXiv paper on deep learning for recommmender systems focused on implicit feedback but very relevant for details on sparse matrices |
-| Factor in the Neighbors: Scalable and Accurate Collaborative Filtering | Yehuda Koren research paper on collaborative filtering with a good explanation of the underlying mathematics |
-| A Scalable Collaborative Filtering Framework based on Co-clustering | UT paper on clustering and collaborative filtering |
-| Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model | Yehuda Koren paper on neighborhood model based collaborative filtering |
-| Matrix Factorization Techniques for Recommender Systems | Yehuda Koren paper on matrix factorization methods for collaborative filtering |
-| Algorithms for Non-negative Matrix Factorization | Non-negative matrix factorization |
-| Slope One Predictors for Online Rating-Based Collaborative Filtering | Online models |
-| Probabilistic Matrix Factorization | Probabilistic approach to matrix factorization |
-| Learning from Incomplete Ratings Using Non-negative Matrix Factorization | Non-negative matrix factorization |
-
-Other references:
+Please see bibliography within formal report for academic resources. Other references listed here:
 * [Collaborative Filtering Wiki](https://en.wikipedia.org/wiki/Collaborative_filtering)
 * [Recommender Systems Wiki](https://en.wikipedia.org/wiki/Recommender_system)
 * [Information Filtering Systems Wiki](https://en.wikipedia.org/wiki/Information_filtering_system)

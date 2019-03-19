@@ -59,3 +59,20 @@
                     puqi_reg = reg_pu * norm(pu[u, :]) + reg_qi * norm(qi[i, :])
                     regularization = bui_reg + puqi_reg
                     return residual + regularization
+
+                    # print('inside objective function')
+                    # print('BU: {}'.format(bu))
+                    # print('U: {}'.format(u))
+                    # print('M: {}'.format(i))
+                    # print('R: {}'.format(r))
+                    # print('Mean: {}'.format(global_mean))
+                    # print('Reg BU: {}'.format(reg_bu))
+                    # print('Reg BI: {}'.format(reg_bi))
+                    # print('BI: {}'.format(bi))
+                    # print('REG PU: {}'.format(reg_pu))
+                    # print('PU: {}'.format(pu))
+                    # print('REG QI: {}'.format(reg_qi))
+                    # print('QI: {}'.format(qi))
+                    # bui_reg = reg_bu * bu[u] + reg_bi * bi[i]
+                    # puqi_reg = reg_pu * norm(pu[u, :]) + reg_qi * norm(qi[i, :])
+                    # regularization = bui_reg + puqi_reg

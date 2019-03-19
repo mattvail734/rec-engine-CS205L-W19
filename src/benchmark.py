@@ -8,7 +8,7 @@ from surprise import KNNBaseline, KNNBasic, KNNWithMeans, KNNWithZScore
 from surprise import BaselineOnly, CoClustering
 from surprise.model_selection import cross_validate
 import load_data
-from matrix_factorization_cgd import SVD_cgd
+from MF_CG import SVD_CG, SVDpp_CG, NMF_CG
 
 # for more information on loading data to surprise:
 # https://surprise.readthedocs.io/en/stable/getting_started.html#load-custom
@@ -57,10 +57,11 @@ def benchmark():
     data = Dataset.load_from_df(ratings[['userId', 'movieId', 'rating']], reader)
 
     benchmark = []
-    algorithms = [SVD_cgd(n_factors=10, n_epochs=5)]
+    algorithms = [SVD_CG(n_factors=5, n_epochs=5)]
     # algorithms = [
-        # SVD(), SVDpp(), SlopeOne(), NMF(), NormalPredictor(), KNNBaseline(),
-        # KNNBasic(), KNNWithMeans(), KNNWithZScore(), BaselineOnly(), CoClustering(), SVD_cgd(n_factors=10, n_epochs=5, biased=False)]
+    #     SVD(), SVDpp(), SlopeOne(), NMF(), NormalPredictor(), KNNBaseline(),
+    #     KNNBasic(), KNNWithMeans(), KNNWithZScore(), BaselineOnly(),
+    #     CoClustering(), SVD_CG(), SVDpp_CG(), NMF_CG()]
 
     for algorithm in algorithms:
         results = cross_validate(algorithm, data, measures=['RMSE'], cv=3, verbose=False)

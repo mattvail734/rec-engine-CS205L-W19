@@ -44,7 +44,7 @@ The data used in this project is from MovieLens. The data can be downloaded [her
 
 ## Software
 
-The entire project was completed in Python 3.7.2_1 using standard libraries including:
+The entire project was completed in Python 3.7.2_1 and Cython 0.29.6 using standard libraries including:
 
 * [Os](https://docs.python.org/3/library/os.html)
 * [SciKitLearn](https://scikit-learn.org/stable/)

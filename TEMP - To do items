@@ -1,3 +1,6 @@
-1:  Implement Conjugate Gradient Descent in SVD and SVD++ algorithm (training time already measured within Surprise just set output='verbose')
-2:  Compare performance (training time) to Surprise
-3:  Write report
+1:  Implement CGD in SVD, SVDpp, and NMF algorithms
+2:  Implement CGD in optimize baseline
+3:  Modify algo base to use CGD to optimize baselines
+4:  Add a preconditioning step (not sure where yet)
+5:  Compare performance (training time) to Surprise
+6:  Write report

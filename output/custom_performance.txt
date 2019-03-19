@@ -1,5 +1,0 @@
-K: 20
-alpha: 0.001
-beta: 0.01
-iterations: 100
-RMSE: 262.710632867332

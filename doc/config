@@ -7,6 +7,7 @@
 # Run the following in your terminal (can copy paste as script too) if you don't have Python:
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install python
+pip3 install cython
 pip3 install surprise
 pip3 install sklearn
 pip3 install scikit-image

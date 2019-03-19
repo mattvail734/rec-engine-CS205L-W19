@@ -1,6 +1,8 @@
 import numpy as np
 from scipy.sparse.linalg import cg
 import time
+from surprise.utils import get_rng
+
 
 
 def conjugate_grad(A, b, x=None):

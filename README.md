@@ -53,7 +53,7 @@ The entire project was completed in Python 3.7.2_1 and Cython 0.29.6 using stand
 * [Matplotlib](https://matplotlib.org/)
 * [Seaborn](https://seaborn.pydata.org/)
 
-We also used the [Surprise](https://surprise.readthedocs.io/en/stable/index.html) library for benchmarks.
+We also used the [Surprise](https://surprise.readthedocs.io/en/stable/index.html) library for benchmarks (code found [here](https://github.com/NicolasHug/Surprise/blob/711fb80748140c44e0ed870e573c735307e6c3cc/doc/source/index.rst)).
 
 ## [References](https://github.com/polymathnexus5/rec-engine-CS205L-W19/tree/master/references)
 Please see bibliography within formal report for academic resources. Other references listed here:

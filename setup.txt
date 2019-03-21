@@ -1,0 +1,16 @@
+# download the ml-20m dataset from
+# http://files.grouplens.org/datasets/movielens/ml-20m.zip
+# unzip and place the entire 'ml-20m' folder in repo like this:
+# ../GitHub/rec-engine-cs205l-w19
+# Don't change the directory name, it's not tracked by Git
+
+# Run the following in your terminal (can copy paste as script too) if you don't have Python:
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install python
+pip3 install cython
+pip3 install surprise
+pip3 install sklearn
+pip3 install scikit-image
+pip3 install scipy
+pip3 install numpy
+pip3 install matplotlib

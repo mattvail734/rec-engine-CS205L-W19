@@ -106,7 +106,7 @@ def load_small_movies():
 
 # userId,movieId,rating,timestamp
 def load_small_ratings():
-    ratings = pd.read_csv('../ml-20m/ml-latest-small/ratings.csv')
+    ratings = pd.read_csv('/ml-20m/ml-latest-small/ratings.csv')
     return ratings
 
 
@@ -147,6 +147,7 @@ def filter_users_by_rating_count(ratings, percentile=0.999):
     drop_user_list = ratings_summary_users[ratings_summary_users['count'] < min_ratings_user].index
     ratings_short = ratings[~ratings['userId'].isin(drop_user_list)]
     return ratings_short
+
 
 # filter movies in the dataset by number of reviews
 # returns the filtered dataframe

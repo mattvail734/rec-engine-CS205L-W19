@@ -107,7 +107,7 @@ def parameter_search(data):
         'reg_all': [0.2, 0.6, 1.0],
         'init_mean': [0.0, 0.5, 1.0],
         'init_std_dev': [0.0, 0.1, 0.5, 1.0]}
-    algorithms = [SVD, SVD_SGD_momentum, SVDpp_SGD_momentum]
+    algorithms = [SVDpp]
     for algorithm in algorithms:
         gs = GridSearchCV(SVD, param_grid)
         gs.fit(data)
@@ -137,14 +137,14 @@ def parameter_search(data):
 
 if __name__ == '__main__':
     data = surprise_small_dataset_filtered_by_both()
-    benchmark(data)
+    # benchmark(data)
     parameter_search(data)
     user_filtered_data = surprise_small_dataset_filtered_by_user()
-    benchmark(user_filtered_data)
+    # benchmark(user_filtered_data)
     parameter_search(user_filtered_data)
     movie_filtered_data = surprise_small_dataset_filtered_by_movie()
-    benchmark(movie_filtered_data)
+    # benchmark(movie_filtered_data)
     parameter_search(movie_filtered_data)
     both_filtered_data = surprise_small_dataset_filtered_by_both()
-    benchmark(both_filtered_data)
+    # benchmark(both_filtered_data)
     parameter_search(both_filtered_data)

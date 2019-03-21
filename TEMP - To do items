@@ -1,6 +1,0 @@
-1:  Implement CGD in SVD, SVDpp, and NMF algorithms
-2:  Implement CGD in optimize baseline
-3:  Modify algo base to use CGD to optimize baselines
-4:  Add a preconditioning step (not sure where yet)
-5:  Compare performance (training time) to Surprise
-6:  Write report
